@@ -94,3 +94,9 @@ body {
       transform: scale(1);
   }
 }
+
+@media (min-width: 360px) {
+  body {
+    background-position: 15%;
+  }
+}

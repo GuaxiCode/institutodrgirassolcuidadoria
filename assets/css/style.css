@@ -1,103 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-
 * {
-  padding:0;
+  border:0;
   margin:0;
-  vertical-align:baseline;
+  padding:0;
   list-style:none;
-  border:0
-}
-
-html
-{
-  position:fixed;
-  width:100%;
-  height:100%;
+  vertical-align:baseline;
 }
 
 body {
-  display: block;
+  background-color: #ebe8dd;
+}
+
+.background-efeitos {
+  background-image: url(/assets/img/Background/backgroundEfeitos.png);
   width: 100vw;
   height: 100vh;
-  padding: 0;
-  text-align: center;
-  background: url("https://cdn.discordapp.com/attachments/739927889473962084/963503243898523648/Baccground.png");
-  background-position: 30% 45%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  background-position: 50% 57%;
+  background-repeat: no-repeat;
+  animation: fade 2s infinite;
 }
 
-.head-div {
-  text-align:center;
-  padding:20%;
-  padding-top:2%;
-  padding-bottom:3%;
+.background-girassois {
+  background-image: url(/assets/img/Background/backgroundGirassol.png);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 57%;
+  background-repeat: no-repeat;
 }
 
-.logo-img {
-  border-radius: 50%;
-  border: 2px solid #353535;
-  box-shadow: 0 0 6px #353535;
+.background-folhas {
+  background-image: url(/assets/img/Background/backgroundFolhas.png);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 57%;
+  background-repeat: no-repeat;
 }
 
-.link-div{ 
-  padding: 20%;
-  padding: left 10%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+#girassol1 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-top: 114px;
+  margin-left: 1388px;
+  animation: girar 5s infinite ease;
 }
 
-.alink {
-  color:#FAFAFA;
-  text-align: center;
-  margin-top: 1px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid;
-  border-color: #353535;
-  background-color: #572907;
-  padding: 20px 0;
-  max-width: 590px;
-  display: block;
-  text-decoration:none;
-  transition: 0.3s;
-  font-family: 'Amatic SC', cursive;
-  font-size: 25px;
+#girassol2 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-top: 95px;
+  margin-left: 90px;
+  margin-bottom: 0px;
+  animation: girar 5s infinite ease;
 }
 
-.alink:hover {
-  color: #ffd91d;
-  transition: 0.3s;
-  animation: zoom 25s;
+#girassol3 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-top: -50px;
+  margin-left: 1438px;
+  animation: girar 5s infinite ease;
 }
 
-.copyright{
-  color: #353535;
-  text-align:center;
+#girassol4 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-top: 7px;
+  margin-left: 8px;
+  animation: girar 5s infinite ease;
 }
 
-.GuaxiCode {
-  color: #000000;
-  transition: 0.3s;
+#girassol5 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-top: -50px;
+  margin-left: 1357px;
+  animation: girar 5s infinite ease;
 }
 
-.GuaxiCode:hover {
-  color: #06bb00;
+#girassol6 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-top: 93px;
+  margin-left: 88px;
+  animation: girar 5s infinite ease;
 }
 
-@keyframes zoom {
+@keyframes girar {
   0%{
-      transform: scale(1.01);
-  }
-  25%{
-    transform: scale(1.03);
-  }
-  75%{
-    transform: scale(1.05);
+    transform: rotate(0);
   }
   100%{
-      transform: scale(1);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0%;
+  }
+  50%{
+    opacity: 100%;
+  }
+  100%{
+    opacity: 0%;
   }
 }

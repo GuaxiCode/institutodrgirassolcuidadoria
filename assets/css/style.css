@@ -11,17 +11,16 @@ body {
 }
 
 .background-efeitos {
-  background-image: url(/assets/img/Background/backgroundEfeitos.png);
+  background-image: url(../img/Background/backgroundEfeitos.png);
   width: 100vw;
   height: 100vh;
   background-size: cover;
   background-position: 50% 57%;
   background-repeat: no-repeat;
-  animation: fade 2s infinite;
 }
 
 .background-girassois {
-  background-image: url(/assets/img/Background/backgroundGirassol.png);
+  background-image: url(../img/Background/backgroundGirassol.png);
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -30,7 +29,7 @@ body {
 }
 
 .background-folhas {
-  background-image: url(/assets/img/Background/backgroundFolhas.png);
+  background-image: url(../img/Background/backgroundFolhas.png);
   width: 100vw;
   height: 100vh;
   background-size: cover;

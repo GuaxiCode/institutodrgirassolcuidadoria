@@ -168,7 +168,7 @@ body {
   color: #06bb00;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   body {
     background-image: url(bizarre-beasties-snow.gif);
   }

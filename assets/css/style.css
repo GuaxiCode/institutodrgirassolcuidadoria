@@ -170,6 +170,6 @@ body {
 
 @media screen and (max-width: 800px) {
   body {
-    background-image: url(bizarre-beasties-snow.gif);
+    background-color: #ff8c00;
   }
 }

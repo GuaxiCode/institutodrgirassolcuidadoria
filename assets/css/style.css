@@ -167,3 +167,9 @@ body {
 .GuaxiCode:hover {
   color: #06bb00;
 }
+
+@media screen and (min-width: 800px) {
+  body {
+    background-image: none;
+  }
+}

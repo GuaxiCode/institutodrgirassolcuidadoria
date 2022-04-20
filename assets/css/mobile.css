@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   body {
     background-image: url(../img/Background/background768px.png);
     width: 100vw;
@@ -13,6 +13,7 @@
     width: 150px;
     height: 150px;
   }
+
   #background-efeitos, #girassol1, #girassol2, #girassol3, #girassol4, #girassol5, #girassol6 {
     display: none;
   }

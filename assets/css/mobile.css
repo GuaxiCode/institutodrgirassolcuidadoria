@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px){
   body {
     background-image: url(../img/Background/background768px.png);
     width: 100vw;

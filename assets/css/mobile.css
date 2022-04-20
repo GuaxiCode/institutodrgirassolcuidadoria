@@ -4,17 +4,16 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
+    background-repeat: repeat-y;
   }
   .logo-img {
-    display: none;
+    margin-top: 710px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 150px;
+    height: 150px;
   }
-  .links {
-    margin-top: 680px;
-  }
-  #background-efeitos {
-    display: none;
-  }
-  #girassol1, #girassol2, #girassol3, #girassol4, #girassol5, #girassol6 {
+  #background-efeitos, #girassol1, #girassol2, #girassol3, #girassol4, #girassol5, #girassol6 {
     display: none;
   }
 }

@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1080px) and (min-width: 783px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media only screen and (max-width: 783px) {
+  .head {
+    margin-top: 1px;
+  }
+  .logo-img {
+    max-width: 225px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+
+  }
+  .button-links {
+    max-width: 300px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+  }
+  .bakground-folhas {
+    display: none;
+  }
+  .background-efeitos {
+    display: none;
+  }
+  .background-girassol1 {
+    display: none;
+  }
+  .background-girassol2 {
+    display: none;
+  }
+  .background-girassol3 {
+    display: none;
+  }
+  .background-girassol4 {
+    display: none;
+  }
+  .background-girassol5 {
+    display: none;
+  }
+  .background-girassol6 {
+    display: none;
+  }
+}

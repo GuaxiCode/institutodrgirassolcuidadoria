@@ -12,6 +12,8 @@ body {
   height: 100%;
   user-select: none;
   background-color: #ebe8dd;
+  overflow: hidden;
+  user-select: none;
 }
 
 /* PRELOADER */

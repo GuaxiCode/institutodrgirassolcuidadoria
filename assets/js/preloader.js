@@ -1,5 +1,6 @@
-const overlay = document.querySelector(".overlay");
+function fadeOut() {
+  const loaderWrapper = document.querySelector('.wrapper')
+  loaderWrapper.classList.add('fade')
+}
 
-window.addEventListener("load", function(){
-  overlay.style.display = "none"
-})
+window.addEventListener('load', fadeOut)
